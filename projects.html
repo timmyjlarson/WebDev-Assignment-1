@@ -1,9 +1,97 @@
 <!DOCTYPE html>
 <html>
-<head>\
+<head>
     <title>Tim Larson: Personal Website - Projects</title>
+    <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    
+    <div class="off-canvas-wrapper">
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="fun.html">Fun Stuff</a></li>
+            </ul>
+        </div>
+        <div class="off-canvas-content" data-off-canvas-content></div>
+        <div class="grid-x grid-padding-x">
+            <button type="button" class="cell large-auto button" data-toggle="offCanvas">Open Menu</button>
+        </div>       
+        <div>
+            <h1>PC Build</h1>
+            <p>Last year over J-Term I built this PC, primarily for school work. After I built it, I ended up starting to use it for gaming more so I upgraded the RAM and the graphics card. 
+                For this project, I did everything from researching the parts to use to the installation and setup. Below is the complete build list:
+            </p>
+            <ul>
+                <li>
+                    <a href ="https://www.microcenter.com/product/605853/thermaltake-v200-rgb-tempered-glass-atx-mid-tower-computer-case-black" target="_blank">
+                        Thermaltake V200 RGB Tempered Glass Computer Case
+                    </a>
+                </li>
+                <li>
+                    <a href ="https://www.microcenter.com/product/643623/asus-z690-e-rog-strix-gaming-wifi-ddr5-intel-lga-1700-atx-motherboard" target="_blank">
+                        ASUS Z690-E ROG Strix Gaming WiFi Motherboard
+                    </a>
+                </li>
+                <li>
+                    <a href ="https://www.microcenter.com/product/481738/gskill-ripjaws-v-16gb-(2-x-8gb)-ddr4-3200-pc4-25600-cl16-dual-channel-desktop-memory-kit-f4-3200c16d-16gvkb-black" target="_blank">
+                        G.Skill Ripjaws V 16GB (2 x 8GB) DDR4 RAM
+                    </a>
+                </li>
+                <li>
+                    <a href ="https://www.microcenter.com/product/645010/cooler-master-hyper-212-rgb-black-edition-cpu-air-cooler" target="_blank">
+                        Cooler Master Hyper 212 RGB CPU Cooler
+                    </a>
+                </li>
+                <li>
+                    <a href ="https://www.microcenter.com/product/633421/intel-core-i9-11900k-rocket-lake-35ghz-eight-core-lga-1200-boxed-processor-heatsink-not-included" target="_blank">
+                        Intel Core i9-11900K Processor
+                    </a>
+                </li>
+                <li>
+                    <a href ="https://www.microcenter.com/product/617533/cooler-master-masterfan-mf120-halo-duo-ring-argb-lighting-rifle-bearing-120mm-case-fan" target="_blank">
+                        Cooler Master Halo Duo-Ring aRGB Case Fan x2
+                    </a>
+                </li>
+                <li>
+                    <a href ="https://www.newegg.com/patriot-32gb-288-pin-ddr4-sdram/p/N82E16820225211?item=N82E16820225211&source=region&nm_mc=knc-googleadwords-pc&cm_mmc=knc-googleadwords-pc-_-pla-_-memory+%28desktop+memory%29-_-N82E16820225211&id1=2085190752&id2=77186933179&id3=&id4=&id5=pla-1395308720120&id6=&id7=9019537&id8=&id9=g&id10=c&id11=&id12=CjwKCAjws--ZBhAXEiwAv-RNLwtGrt6oyjjuqVc1qwj4t_ndh1udWeQQU-kwuaE59zKLjbHTVUApaBoC5poQAvD_BwE&id13=&id14=Y&id15=&id16=375179896468&id17=&id18=&id19=&id20=&id21=pla&id22=8438988&id23=online&id24=N82E16820225211&id25=US&id26=1395308720120&id27=Y&id28=&id29=&id30=949170158549952373&id31=en&id32=&id33=&id34=&gclid=CjwKCAjws--ZBhAXEiwAv-RNLwtGrt6oyjjuqVc1qwj4t_ndh1udWeQQU-kwuaE59zKLjbHTVUApaBoC5poQAvD_BwE&gclsrc=aw.ds" target="_blank">
+                        Patriot Viper RGB 32GB (2 x 16GB) DDR4 RAM
+                    </a>
+                </li>
+                <li>
+                    <a href ="https://www.microcenter.com/product/646820/msi-nvidia-geforce-rtx-3080-gaming-z-trio-lhr-triple-fan-12gb-gddr6x-pcie-40-graphics-card" target="_blank">
+                        MSI NVIDIA GeForce RTX 3080 Graphics Card
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h1>Sequence Diagram: Senior Capstone</h1>
+            <p> Words!</p>
+        </div>
+        <div>
+            <h1>CMMC Certification</h1>
+            <p>
+                Currently I am an intern at an accounting firm on their IT Governance team. My team recently led the effort for the firm to achieve the Level Two CMMC Certification, a certification
+                created by the DoD to ensure that institutions have the appropriate safeguards to work with data that may be important to national security interests. For my role on the project, myself
+                and one other person assembled audit information for over 1200 applications across over 100 controls. Since the audit, I have been working to catalog and maintain changes to the security
+                policy, the implementation of applications, and the product managers.
+            </p>
+        </div>
+        </div>
+    </div>
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
 </body>
